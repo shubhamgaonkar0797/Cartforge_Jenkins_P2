@@ -1,0 +1,13 @@
+{
+  "name": "cartforge",
+  "version": "1.0.0",
+  "description": "CartForge application for Jenkins CI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "mkdir -p dist && cp src/index.js dist/index.js && cp package.json dist/package.json",
+    "test": "node test/test.js"
+  },
+  "author": "CartForge",
+  "license": "MIT"
+}
