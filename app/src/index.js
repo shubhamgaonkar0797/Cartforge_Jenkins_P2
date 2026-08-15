@@ -3,4 +3,4 @@ const application = {
   status: "running"
 };
 
-console.log(`${application.name} application is ${application.status}`);
+console.log(`${application.name} CI application is ${application.status}`);
