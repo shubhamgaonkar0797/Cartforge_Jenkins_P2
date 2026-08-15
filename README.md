@@ -26,7 +26,7 @@ The main objectives of this project are:
 ---
 
 ## Jenkins Architecture
-```text
+
                  GitHub Repository
                         |
                         | Git Push
