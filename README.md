@@ -26,7 +26,7 @@ The main objectives of this project are:
 ---
 
 ## Jenkins Architecture
-
+``` 
                  GitHub Repository
                         |
                         | Git Push
@@ -50,7 +50,7 @@ The main objectives of this project are:
                  Jenkins Artifact
 
 
-
+```
 ##  Installation Steps
 
 [Jenkins Controller]
@@ -94,7 +94,7 @@ The Jenkins Pipeline is defined in:
 Jenkinsfile
 
 The pipeline contains the following stages:
-
+```
 Clone Source Code
         |
 Install Dependencies
@@ -146,11 +146,11 @@ The application uses npm scripts for:
 npm install
 npm test
 npm run build
-
+```
 
 
 ##  Commands Used:
-
+```
 Check Java     | java --version
 Check Git      | git --version
 Check Node.js  | node --version
@@ -161,11 +161,11 @@ git init
 git add .
 git commit -m "commit message"
 git push
-
+```
 
 
 ##  Folder Structure
-
+```
 Cartforge_Jenkins_P2/
 │
 ├── README.md
@@ -194,7 +194,7 @@ Cartforge_Jenkins_P2/
 │
 └── documentation/
     └── Project_Report.pdf
-
+```
 
 
 ##  Challenges Faced
